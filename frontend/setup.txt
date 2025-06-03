@@ -1,0 +1,6 @@
+npm install -g npm@latest -> updating npm to the latest
+npm create vite@latest -> for project creation
+Configure the project using: https://tailwindcss.com/docs/installation/using-vite
+npm install react-router-dom axios react-toastify
+npm install @heroicons/react @heroicons/react@v1 @headlessui/react
+npm install react-toastify
