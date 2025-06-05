@@ -321,7 +321,7 @@ const MistakesTable = ({
                                  </td>
                                  <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                                     {
-                                       mistake.categories.map((category_id) => (
+                                       mistake.categories && mistake.categories.map((category_id) => (
                                           <label className={`rounded-full border px-2 py-0.5 ${colorClasses[findCategoryColorForId(category_id)] || ''}`}>
                                              {findCategoryNameForId(category_id)}
                                           </label>
